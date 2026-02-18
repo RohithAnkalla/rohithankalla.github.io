@@ -38,3 +38,27 @@ footer {
     padding: 20px;
     background-color: #1e293b;
 }
+
+.project-card {
+    background-color: #1e293b;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h2 {
+    color: #38bdf8;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #38bdf8;
+    text-decoration: none;
+}

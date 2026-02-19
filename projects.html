@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Rohith Ankalla</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,35 +13,45 @@
 <header>
     <div class="top-bar">
         <h1>Projects</h1>
-        <button id="theme-toggle">🌓</button>
+        <button id="theme-toggle">🌙</button>
     </div>
     <a href="index.html" class="back-link">← Back to Home</a>
 </header>
 
 <section class="project-card">
-    <img src="assets/bookcricket.png" alt="BookCricket Screenshot">
+    <img src="assets/bookcricket.png">
     <div>
         <h2>BookCricket — Android Application</h2>
-        <p>
-            Native Android application built using Kotlin and Android Studio,
-            implementing structured gameplay logic and SQLite-based data persistence.
-        </p>
+        <p>Native Android app built with Kotlin and SQLite persistence.</p>
         <p class="tech">Tech: Kotlin, Android Studio, SQLite</p>
         <a href="https://github.com/RohithAnkalla/bookcricket-android" target="_blank">GitHub</a>
     </div>
 </section>
 
 <section class="project-card">
-    <img src="assets/olr.png" alt="OLR Screenshot">
+    <img src="assets/olr.png">
     <div>
         <h2>ONE LAST RECKONING — Interactive 3D Web Experience</h2>
-        <p>
-            Interactive browser-based 3D experience developed using Three.js and custom GLSL shaders.
-        </p>
+        <p>Three.js-based browser 3D experience with custom shaders.</p>
         <p class="tech">Tech: JavaScript, Three.js, GLSL</p>
+        <a href="https://github.com/RohithAnkalla/cs460student/tree/main/HiRO" target="_blank">GitHub</a>
+        <br>
         <a href="https://rohithankalla.github.io/cs460student/HiRO/index.html" target="_blank">Live Demo</a>
     </div>
 </section>
+
+<section class="project-card">
+    <img src="assets/webprotect.png">
+    <div>
+        <h2>Web Protect — Malicious URL Detection</h2>
+        <p>Supervised ML system classifying malicious URLs (~96% accuracy).</p>
+        <p class="tech">Tech: Python, Scikit-learn</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Rohith Ankalla</p>
+</footer>
 
 <script src="theme.js"></script>
 </body>

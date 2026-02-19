@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohith Ankalla.com</title>
+    <title>Rohith Ankalla</title>
 
-    <!-- Poppins Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
@@ -13,18 +12,38 @@
 <body>
 
 <header>
-    <h1>Rohith Ankalla</h1>
-    <p>Creative Technologist | Software Developer | UI Engineer</p>
-    <div class="links">
-        <a href="projects.html">Projects</a>
-        <a href="resume.pdf" target="_blank">Resume</a>
-        <a href="https://www.linkedin.com/in/rohith-ankalla-44534b218/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/RohithAnkalla" target="_blank">GitHub</a>
+    <div class="top-bar">
+        <h1>Rohith Ankalla</h1>
+        <button id="theme-toggle">🌓</button>
+    </div>
+
+    <div class="hero">
+        <div class="hero-image">
+            <img src="assets/profile.jpg" alt="Rohith Ankalla">
+        </div>
+
+        <div class="hero-text">
+            <h2>
+                I build interactive digital systems that merge 
+                <span class="accent">engineering precision</span> 
+                with creative exploration.
+            </h2>
+            <p>
+                Creative Technologist | Software Developer | UI Engineer
+            </p>
+
+            <div class="links">
+                <a href="projects.html">Projects</a>
+                <a href="resume.pdf" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/rohith-ankalla-44534b218/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/RohithAnkalla" target="_blank">GitHub</a>
+            </div>
+        </div>
     </div>
 </header>
 
 <section class="about">
-    <h2>About Me</h2>
+    <h3>About Me</h3>
     <p>
         I am a Computer Science graduate with hands-on experience in software development,
         interactive web applications, and database systems. I enjoy building user-centered
@@ -36,5 +55,6 @@
     <p>© 2026 Rohith Ankalla</p>
 </footer>
 
+<script src="theme.js"></script>
 </body>
 </html>

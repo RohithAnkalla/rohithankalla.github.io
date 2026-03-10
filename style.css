@@ -167,3 +167,59 @@ footer {
         width: 180px;
     }
 }
+
+/* PAGE NAV */
+
+.page-nav{
+margin-top:40px;
+}
+
+.page-nav a{
+display:inline-block;
+margin:8px 12px 0 0;
+padding:10px 20px;
+border-radius:6px;
+border:1px solid var(--border);
+color:var(--border);
+text-decoration:none;
+transition:0.3s ease;
+}
+
+.page-nav a:hover{
+background:var(--border);
+color:var(--accent);
+}
+
+
+/* WORK PAGE */
+
+.work-section,
+.education-section{
+padding:40px 8%;
+}
+
+.section-title{
+color:var(--accent);
+margin-bottom:30px;
+}
+
+.work-card{
+background:var(--card);
+padding:25px;
+border-radius:10px;
+margin-bottom:25px;
+}
+
+.work-org{
+opacity:0.8;
+margin:5px 0;
+}
+
+.work-date{
+color:var(--accent);
+margin-bottom:10px;
+}
+
+.work-card ul{
+padding-left:18px;
+}
